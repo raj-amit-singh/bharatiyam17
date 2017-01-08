@@ -1,0 +1,124 @@
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+}
+* {
+  outline: none;
+}
+
+.countdownBox{
+
+}
+
+.countdown {
+  margin: 50px auto;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+.countdown .time-circle {
+  display: -moz-inline-stack;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 54px;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  position: relative;
+  background: #4ebdc0;
+}
+.countdown .time-circle:hover {
+  background: #46babd;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+.countdown .time-circle .time {
+  display: -moz-inline-stack;
+  display: inline-block;
+  font-size: 54px;
+}
+.countdown .time-circle .time-name {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  left: 0;
+  line-height: 16px;
+  color: #000;
+  opacity: 0.2;
+}
+.countdown .time-circle .progress {
+  width: 126px;
+  height: 126px;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  z-index: -9;
+  background-color: #f6f6f6;
+  background-color: rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.countdown .time-circle .progress:after {
+  content: '';
+  width: 6px;
+  height: 70px;
+  background: #fff;
+  position: absolute;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  -o-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+.countdown .dots {
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding: 20px 5px;
+  font-size: 54px;
+  -webkit-animation: dots 1s infinite;
+  -moz-animation: dots 1s infinite;
+  -ms-animation: dots 1s infinite;
+}
+@-moz-keyframes dots {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+@-webkit-keyframes dots {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes dots {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
