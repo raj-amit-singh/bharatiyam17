@@ -7,6 +7,15 @@ svg, html, body  {
   background-image: radial-gradient(circle,rgb(0, 34, 35),black);
 }
 
+.container {
+  height: 100vh;
+  position : relative;
+}
+
+#svg {
+  position: absolute;
+  height: 100%;
+}
 circle {
   fill: white;
   position: relative;
