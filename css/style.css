@@ -1,0 +1,21 @@
+svg, html, body  {
+  box-sizing: border-box;
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  background-image: radial-gradient(circle,rgb(0, 34, 35),black);
+}
+
+circle {
+  fill: white;
+  position: relative;
+  z-index: 100;
+}
+
+line {
+  stroke: rgba(0,255,255,0.05);
+  stroke-width: 1;
+  position: relative;
+  z-index:0;
+}
