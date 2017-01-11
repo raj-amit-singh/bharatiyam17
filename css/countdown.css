@@ -6,16 +6,19 @@
   outline: none;
 }
 
+
 .countdownBox{
+z-index: 10;
+display: inline-block;
+padding-top: 20%;
+padding-left: 27%;
 
 }
 
 .countdown {
-  margin: 50px auto;
+
   text-align: center;
   color: #fff;
-  padding: 20px;
-  margin-top: 50px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
@@ -32,10 +35,10 @@
   line-height: 120px;
   text-align: center;
   position: relative;
-  background: #4ebdc0;
+  background:  radial-gradient(circle,rgb(0, 34, 35),black);
 }
 .countdown .time-circle:hover {
-  background: #46babd;
+  background:  radial-gradient(circle,rgb(0, 34, 35),black);
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   -ms-transition: background 0.3s;
@@ -47,15 +50,16 @@
   font-size: 54px;
 }
 .countdown .time-circle .time-name {
-  font-size: 16px;
+  font-size: 11px;
   font-family: 'Arial', sans-serif;
   position: absolute;
   bottom: 10px;
   width: 100%;
   left: 0;
-  line-height: 16px;
-  color: #000;
-  opacity: 0.2;
+  line-height: 22px;
+  color: #FFF;
+  opacity: 0.5;
+  text-transform: uppercase;
 }
 .countdown .time-circle .progress {
   width: 126px;
