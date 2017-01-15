@@ -1,10 +1,11 @@
 *{
 	font-family: 'Montserrat', sans-serif;
-	margin: 0;
+	width: auto;
+	margin: 0px;
 }
 
 /* =========================================== header background ======================================*/
-.container {
+.cont {
 	height: 640px;
 	background: rgb(145,37,188);
 	background: -moz-linear-gradient(-45deg,  rgb(145,37,188) 1%, rgb(125,185,232) 100%, rgb(41,137,216) 100%, rgb(32,124,202) 100%);
@@ -17,12 +18,12 @@
  /*======================================+++++ header design ============================================== */
 											
 
-.container .header{
+.cont .header{
 	float: right;
 
 }
 
-.container .header ul li{
+.cont .header ul li{
 
 	float: left;
 	display: inline-block;
@@ -35,20 +36,20 @@
 }
 
 
-.container .header ul li a{
+.cont .header ul li a{
 	text-decoration: none;
 	color: #fff;
 	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
     
 }
 
-.container .header ul li a:hover , a:focus , a:active{
+.cont .header ul li a:hover , a:focus , a:active{
 	text-decoration: none;
 	color: #000;
 	transition: color 0.5s, background-color 0.5s;
 }
 
-.container .header ul li a::before {
+.cont .header ul li a::before {
     content: '';
     display: block;
   	position: relative;
@@ -73,7 +74,7 @@
 
 /*===================================== Hero Image/Content +++++++++++++++++++++++++++++++*/
 
- .container .bharatiyam span.welcome {
+ .cont .bharatiyam span.welcome {
 
  	position: absolute;
  	z-index: 10;
@@ -84,7 +85,7 @@
 	color: #fff;
 }
 
-.container .bharatiyam span.img{
+.cont .bharatiyam span.img{
 
 	position: absolute;
  	z-index: 10;
@@ -95,7 +96,7 @@
 
 }
 
-.container .bharatiyam span.sub{
+.cont .bharatiyam span.sub{
 
 	position: absolute;
  	z-index: 10;
@@ -109,7 +110,7 @@
 
 }
 
-.container .bharatiyam  a.button-1{
+.cont .bharatiyam  a.button-1{
 
 
 	position: absolute;
@@ -132,7 +133,7 @@
 
 }
 
-.container .bharatiyam  a.button-1:hover {
+.cont .bharatiyam  a.button-1:hover {
 
 	background-color: #fff;
 	color :rgba(0, 0, 0, 0.5);
@@ -146,7 +147,7 @@
 .sponsors{
 
 	background-color: #f1f1f1;
-	height: 550px;
+	height: 650px;
 	width: 100%;
 	padding: 50px 10px 50px 10px ;
 	text-align: center;
@@ -189,7 +190,7 @@
 
 .events {
 	width: 100%;
-	height: 620px;
+	height: 650px;
 	background-color: #fff;
 }
 
@@ -202,7 +203,7 @@
 
 .gallery{
 	width: 100%;
-	height:620px;
+	height:650px;
 	background-color: #434345;
 }
 
@@ -216,44 +217,38 @@
 
 .team{
 	width: 100%;
-	height:620px;
+	height:650px;
 	background-color: #eeeeee;
+
 }
 
 .team h1{
+	margin :0px;
 	text-align: center;
 	padding: 50px 0 50px 0;
 	color: #434345;
 }
 
-.team .left {
-	display: inline-block;
-	
-	background-color: red;
-	height: 400px;
-	width: 40%;
+.team .row{
+	margin : 0px;
 }
 
-.team .left ul li{
+.team .row .col-xs-6 span{
 
-	
-}
-
-.team .right{
-	display: inline-block;
-	height: 400px;
-	width: 58%;
-	background-color: yellow;
-	
-}
-.team .right .first{
-	position: absolute;
-}
-
-.team .right .first .sandeep img{
-
+	font-size: 25px;
+	padding: 100px;
+	padding-bottom: 15px;
 
 }
+
+
+
+
+
+
+
+
+
 
 /*===================================== Contact Us +++++++++++++++++++++++++++++++*/
 
@@ -266,6 +261,7 @@
 }
 
 .contact h1{
+	margin: 0px;
 	text-align: center;
 	padding: 50px 0 50px 0;
 	color: #fff;
