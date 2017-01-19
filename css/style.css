@@ -241,6 +241,32 @@
 
 }
 
+.team .row .col-xs-12 .first img {
+	border-radius: 50%;
+	-webkit-box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
+-moz-box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
+box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29); 
+
+}
+
+.team .row .col-xs-12 .first a i{
+	color: #bfbdbd;
+	padding: 5px;
+}
+
+.team .row .col-xs-12 .first a i.fa.fa-facebook-official.fa-3x:hover{
+	color: #3b5998;
+}
+
+.team .row .col-xs-12 .first a i.fa.fa-google-plus-official.fa-3x:hover{
+	color: #d34836;
+}
+
+.team .row .col-xs-12 .second  {
+	position: absolute;
+	visibility: hidden;
+
+}
 
 
 
@@ -263,16 +289,14 @@
 .contact h1{
 	margin: 0px;
 	text-align: center;
-	padding: 50px 0 50px 0;
+	padding: 50px 0 50px 0px;
 	color: #fff;
 }
 
 /*===================================== footer +++++++++++++++++++++++++++++++*/
 
 footer{
-	z-index: -1;
-	width: 100%;
-	height:50px;
-	background-color: #fff;
+	padding: 5px;
+	font-size:12px;
 }
 
