@@ -168,6 +168,7 @@
 	filter: grayscale(100%);
 	padding: 20px;
 	transition-delay: 0.1s;
+	clear:both;
 
 } 
 
@@ -185,6 +186,30 @@
 	padding: 15px;
 
 }
+
+
+
+.bx-wrapper {
+	padding-top: 30px;	
+  width: 100%;
+  
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;                                            
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+*/
+}
+.bx-wrapper .bx-viewport {
+  height: 189px !important;
+}
+.bx-wrapper li {
+  margin-top: -16px !important;
+}
+
+
+
 
 /*===================================== Events +++++++++++++++++++++++++++++++*/
 
