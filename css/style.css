@@ -1,30 +1,327 @@
-svg, html, body  {
-  box-sizing: border-box;
-  height:100%;
-  width:100%;
-  padding:0;
-  margin:0;
-  background-image: radial-gradient(circle,rgb(0, 34, 35),black);
+*{
+	font-family: 'Montserrat', sans-serif;
+	width: auto;
+	margin: 0px;
 }
 
-.container {
-  height: 100vh;
-  position : relative;
+/* =========================================== header background ======================================*/
+.cont {
+	height: 640px;
+	background: rgb(145,37,188);
+	background: -moz-linear-gradient(-45deg,  rgb(145,37,188) 1%, rgb(125,185,232) 100%, rgb(41,137,216) 100%, rgb(32,124,202) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgb(145,37,188) 1%,rgb(125,185,232) 100%,rgb(41,137,216) 100%,rgb(32,124,202) 100%);
+	background: linear-gradient(135deg,  rgb(145,37,188) 1%,rgb(125,185,232) 100%,rgb(41,137,216) 100%,rgb(32,124,202) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9125bc', endColorstr='#207cca',GradientType=1 );
+
+
+}
+ /*======================================+++++ header design ============================================== */
+											
+
+.cont .header{
+	float: right;
+
 }
 
-#svg {
-  position: absolute;
-  height: 100%;
-}
-circle {
-  fill: white;
-  position: relative;
-  z-index: 100;
+.cont .header ul li{
+
+	float: left;
+	display: inline-block;
+	padding: 5px;	
+	margin-right: 50px;
+	margin-top: 40px;
+	font-weight: 600px;
+	font-size: 18px;
+
 }
 
-line {
-  stroke: rgba(0,255,255,0.05);
-  stroke-width: 1;
-  position: relative;
-  z-index:0;
+
+.cont .header ul li a{
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    
 }
+
+.cont .header ul li a:hover , a:focus , a:active{
+	text-decoration: none;
+	color: #000;
+	transition: color 0.5s, background-color 0.5s;
+}
+
+.cont .header ul li a::before {
+    content: '';
+    display: block;
+  	position: relative;
+    bottom: -30px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right bottom;
+    transform: scale(0,1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+
+ .header ul li a:active::before{
+	background-color: #fff;
+}
+
+ .header ul li a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+/*===================================== Hero Image/Content +++++++++++++++++++++++++++++++*/
+
+ .cont .bharatiyam span.welcome {
+
+ 	position: absolute;
+ 	z-index: 10;
+	margin-top: 200px;
+	margin-left: 42%;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+}
+
+.cont .bharatiyam span.img{
+
+	position: absolute;
+ 	z-index: 10;
+	margin-top: 180px;
+	margin-left: 36%;
+	padding: 10px;
+	
+
+}
+
+.cont .bharatiyam span.sub{
+
+	position: absolute;
+ 	z-index: 10;
+	margin-top: 450px;
+	margin-left: 41%;
+	padding: 10px;
+	color: #fff;
+	border-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+
+}
+
+.cont .bharatiyam  a.button-1{
+
+
+	position: absolute;
+ 	z-index: 10;
+	margin-top: 520px;
+	margin-left: 43%;
+	padding: 0px 15px 0px 15px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #fff;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	
+
+}
+
+.cont .bharatiyam  a.button-1:hover {
+
+	background-color: #fff;
+	color :rgba(0, 0, 0, 0.5);
+	
+}
+
+
+
+/*===================================== sponsors +++++++++++++++++++++++++++++++*/
+
+.sponsors{
+
+	background-color: #f1f1f1;
+	height: 650px;
+	width: 100%;
+	padding: 50px 10px 50px 10px ;
+	text-align: center;
+
+}
+
+.sponsors h1 {
+
+
+	padding: 10px;
+	font-weight: 600px;
+
+
+}
+
+.sponsors span.title img{
+
+	filter: grayscale(100%);
+	padding: 20px;
+	transition-delay: 0.1s;
+	clear:both;
+
+} 
+
+.sponsors span.title img:hover{
+
+	filter: none; 
+	
+	
+
+} 
+
+.sponsors .sponsList ul li{
+
+	display: inline-block;
+	padding: 15px;
+
+}
+
+
+
+.bx-wrapper {
+	padding-top: 30px;	
+  width: 100%;
+  
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;                                            
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+*/
+}
+.bx-wrapper .bx-viewport {
+  height: 189px !important;
+}
+.bx-wrapper li {
+  margin-top: -16px !important;
+}
+
+
+
+
+/*===================================== Events +++++++++++++++++++++++++++++++*/
+
+.events {
+	width: 100%;
+	height: 650px;
+	background-color: #fff;
+}
+
+.events h1{
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+
+/*===================================== Gallery +++++++++++++++++++++++++++++++*/
+
+.gallery{
+	width: 100%;
+	height:650px;
+	background-color: #434345;
+}
+
+.gallery h1{
+	text-align: center;
+	padding: 50px 0 50px 0;
+	color: #fff;
+}
+
+/*===================================== Team +++++++++++++++++++++++++++++++*/
+
+.team{
+	width: 100%;
+	height:650px;
+	background-color: #eeeeee;
+
+}
+
+.team h1{
+	margin :0px;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	color: #434345;
+}
+
+.team .row{
+	margin : 0px;
+}
+
+.team .row .col-xs-6 span{
+
+	font-size: 25px;
+	padding: 100px;
+	padding-bottom: 15px;
+
+}
+
+.team .row .col-xs-12 .first img {
+	border-radius: 50%;
+	-webkit-box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
+-moz-box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
+box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29); 
+
+}
+
+.team .row .col-xs-12 .first a i{
+	color: #bfbdbd;
+	padding: 5px;
+}
+
+.team .row .col-xs-12 .first a i.fa.fa-facebook-official.fa-3x:hover{
+	color: #3b5998;
+}
+
+.team .row .col-xs-12 .first a i.fa.fa-google-plus-official.fa-3x:hover{
+	color: #d34836;
+}
+
+.team .row .col-xs-12 .second  {
+	position: absolute;
+	visibility: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+/*===================================== Contact Us +++++++++++++++++++++++++++++++*/
+
+.contact{
+	width: 100%;
+	height:570px;
+	background-color: #0077A2;
+
+	
+}
+
+.contact h1{
+	margin: 0px;
+	text-align: center;
+	padding: 50px 0 50px 0px;
+	color: #fff;
+}
+
+/*===================================== footer +++++++++++++++++++++++++++++++*/
+
+footer{
+	padding: 5px;
+	font-size:12px;
+}
+
