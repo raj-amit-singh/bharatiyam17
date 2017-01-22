@@ -20,6 +20,7 @@
 
 .cont .header{
 	float: right;
+	height: 100vh;
 
 }
 
@@ -305,7 +306,7 @@ box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
 
 .contact{
 	width: 100%;
-	height:570px;
+	height:1200px;
 	background-color: #0077A2;
 
 	
@@ -317,6 +318,207 @@ box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
 	padding: 50px 0 50px 0px;
 	color: #fff;
 }
+
+.contact .row {
+	margin :0px;
+}
+
+
+
+.contact .row .col-xs-6{
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+.contact .row .sandeep {
+
+	text-align: center;
+	background-color:white;
+    width : 150px;
+    height : 400px;
+    -webkit-border-radius:99px;
+
+}
+
+
+.contact .row .col-xs-6 .sandeep  span a{
+	
+	padding: 5px;
+
+
+}
+
+
+
+.contact .row .col-xs-6 .sandeep  span a i .fa.fa-facebook.fa-3x:hover{
+	
+	color: #3b5998;
+
+
+}
+
+.contact .row .col-xs-6 .sandeep .circle img{
+	margin-top: 0px;	
+	 height:150px;
+	 width:150px;
+	
+
+}
+
+
+.contact .row .pramod {
+
+	text-align: center;
+	background-color:white;
+    width : 150px;
+    height : 400px;
+    -webkit-border-radius:99px;
+
+}
+
+
+
+.contact .row .col-xs-6 .pramod .circle img {
+
+		margin-top: 0px;	
+	 height:150px;
+	 width:150px;
+
+}
+
+
+.contact .row .col-xs-6 .pramod  span a{
+	
+	padding: 5px;
+
+
+}
+
+
+.contact .row .prabhakar {
+
+	text-align: center;
+	background-color:white;
+    width : 150px;
+    height : 400px;
+    -webkit-border-radius:99px;
+
+}
+
+.contact .row .col-xs-6 .prabhakar img {
+
+	  	margin-top: 0px;	
+	 height:150px;
+	 width:150px;
+}
+
+
+.contact .row .col-xs-6 .prabhakar  span a{
+	
+	padding: 5px;
+
+
+}
+
+
+.contact .row .soman {
+
+	text-align: center;
+	background-color:white;
+    width : 150px;
+    height : 400px;
+    -webkit-border-radius:99px;
+
+}
+
+.contact .row .col-xs-6 .soman img {
+
+	margin-top: 0px;	
+	 height:150px;
+	 width:150px;
+
+}
+
+.contact .row .col-xs-6 .soman  span a{
+	
+	padding: 5px;
+
+
+}
+
+					/*--------------------------MAP------------------------------------*/
+
+
+
+.contact .row .col-xs-12  iframe{
+	margin: 0px;
+	height: 400px;
+	width: 100%;
+}
+
+.contact .col-xs-6 span .bharati {
+
+	text-align: center;
+	color: white;
+
+}
+
+body > div.contact > div:nth-child(3) > div.col-xs-6.col-md-4 > span   {
+
+	text-align: center;
+	color: white;
+
+}
+
+body > div.contact > div:nth-child(3) > div.col-xs-6.col-md-4 > div.row {
+	color: white;
+}
+
+
+
+.contact .row .col-xs-6.col-md-4 hr {
+
+	border-top: 1px solid #EFF0F1;
+
+}
+
+.contact .col-xs-6 .socialicons {
+
+	padding: 10px;
+	
+}
+
+.contact .col-xs-6 .socialicons i{
+	display: inline-block;
+	padding: 15px;
+
+}
+
+.contact .col-xs-6 .socialicons a{
+	text-decoration: none;
+
+}
+
+
+
+body > div.contact > div > div.col-xs-6.col-md-4 > div.socialicons a {
+	color: white;
+}
+
+
+ div.contact > div > div.col-xs-6.col-md-4 > div.socialicons > a > i.fa.fa-facebook.fa-3x:hover{
+	color:#3b5998;
+}
+
+ div.contact > div > div.col-xs-6.col-md-4 > div.socialicons > a > i.fa.fa-twitter.fa-3x:hover{
+	color:#0084b4;
+}
+
+ div.contact > div > div.col-xs-6.col-md-4 > div.socialicons > a > i.fa.fa-youtube.fa-3x:hover{
+	color:#bb0000;
+}
+
 
 /*===================================== footer +++++++++++++++++++++++++++++++*/
 
