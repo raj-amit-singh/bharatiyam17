@@ -6,3 +6,11 @@ $('.bxslider').bxSlider({
     ticker: true,
     speed: 30000
 });
+
+$('#trigger-btn').click(function() {
+  setTimeout(function() {
+    var height = $('#myModal.in .modal-header').css('height');
+  console.log(height);
+  $('#myModal .modal-body').css("marginTop", height);
+  }, 200);
+})
