@@ -1,3 +1,6 @@
+
+// logo slider js
+
 $('.bxslider').bxSlider({
     minSlides: 1,
     maxSlides: 8,
@@ -7,6 +10,8 @@ $('.bxslider').bxSlider({
     speed: 30000
 });
 
+// modal js
+
 $('#trigger-btn').click(function() {
   setTimeout(function() {
     var height = $('#myModal.in .modal-header').css('height');
@@ -14,3 +19,30 @@ $('#trigger-btn').click(function() {
   $('#myModal .modal-body').css("marginTop", height);
   }, 200);
 })
+
+// Scrolling JS
+
+
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+
+
+// fixed header
+
+$(window).scroll(function(){
+  if($(window).scrollTop() >= 300) {
+    $('nav').addClass('sticky');
+  } else {
+    $('nav').removeClass('sticky');
+  }
+});
