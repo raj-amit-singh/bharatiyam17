@@ -36,13 +36,3 @@ $('a[href*="#"]:not([href="#"])').click(function() {
   }
 });
 
-
-// fixed header
-
-$(window).scroll(function(){
-  if($(window).scrollTop() >= 300) {
-    $('nav').addClass('sticky');
-  } else {
-    $('nav').removeClass('sticky');
-  }
-});
