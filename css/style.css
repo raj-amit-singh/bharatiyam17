@@ -5,6 +5,8 @@
 }
 
 
+/*+++++++++++++++++++++++++++++++++ Top Button ===============================*/
+
 #back-to-top {
     position: fixed;
     bottom: 40px;
@@ -22,6 +24,7 @@
     text-decoration: none;
     transition: opacity 0.2s ease-out;
     opacity: 0;
+
 }
 #back-to-top:hover {
     background: #e9ebec;
@@ -125,15 +128,28 @@
 	color: #fff;
 }
 
-.cont .bharatiyam span.img{
+#home > div.bharatiyam > span.img > img{
 
 	position: absolute;
  	z-index: 10;
-	margin-top: 180px;
-	margin-left: 36%;
+ 	height: 35%;
+ 	width: 35%;
+	margin-top: 215px;
+	margin-left: 31%;
 	padding: 10px;
 	
 
+}
+
+#home > div.bharatiyam > span.date {
+
+	position: absolute;
+	z-index: 10;
+	margin-top: 400px;
+	margin-left: 40%;
+	padding:15px;
+	font-size : 20px;
+	color: white;
 }
 
 .cont .bharatiyam span.sub{
@@ -425,7 +441,7 @@ background-color: rgba(0,0,0,0.7);
 
 .team{
 	width: 100%;
-	height:650px;
+	height:1150px;
 	background-color: #eeeeee;
 
 }
@@ -474,6 +490,67 @@ box-shadow: 7px 6px 78px -12px rgba(0,0,0,0.29);
 	position: absolute;
 	visibility: hidden;
 
+}
+
+
+
+
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(1) > img
+{
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(2) > img
+{
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(3) > img
+{
+	height: 100px;
+	width: 100px;
+}
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(4) > img
+{
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(5) > img
+{
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(6) > img
+{
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(7) > img
+{
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(8) > img
+{
+	height: 100px;
+	width: 100px;
+}
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(9) > img
+{
+	height: 100px;
+	width: 100px;
+}
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(10) > img
+{
+	height: 100px;
+	width: 100px;
 }
 
 
