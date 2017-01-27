@@ -1,3 +1,12 @@
+// modal js
+
+$('#trigger-btn').click(function() {
+  setTimeout(function() {
+    var height = $('#myModal.in .modal-header').css('height');
+  console.log(height);
+  $('#myModal .modal-body').css("marginTop", height);
+  }, 200);
+})
 
 // logo slider js
 
@@ -10,15 +19,6 @@ $('.bxslider').bxSlider({
     speed: 30000
 });
 
-// modal js
-
-$('#trigger-btn').click(function() {
-  setTimeout(function() {
-    var height = $('#myModal.in .modal-header').css('height');
-  console.log(height);
-  $('#myModal .modal-body').css("marginTop", height);
-  }, 200);
-})
 
 // Scrolling JS
 
