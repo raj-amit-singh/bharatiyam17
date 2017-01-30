@@ -116,6 +116,10 @@
 	content: url("../img/icons/colo.png");
 }
 
+.cbp-ig-icon-chemi:before {
+	content: url("../img/icons/scrabble.png");
+}
+
 .cbp-ig-icon-heli:before {
 	content: url("../img/icons/heli.png");
 }
@@ -126,6 +130,32 @@
 .cbp-ig-icon-entre:before {
 	content: url("../img/icons/entre.png");
 }
+
+.cbp-ig-icon-battle:before {
+	content: url("../img/icons/battle.png");
+}
+
+.cbp-ig-icon-soli:before {
+	content: url("../img/icons/soli.png");
+}
+
+.cbp-ig-icon-brain:before {
+	content: url("../img/icons/brain.png");
+}
+.cbp-ig-icon-mic:before {
+	content: url("../img/icons/mic.png");
+}
+
+.cbp-ig-icon-sur:before {
+	content: url("../img/icons/sur.png");
+}
+.cbp-ig-icon-tal:before {
+	content: url("../img/icons/tal.png");
+}
+
+
+
+
 /* title element */
 .cbp-ig-grid .cbp-ig-title {
 	margin: 20px 0 10px 0;
