@@ -152,6 +152,12 @@
 .cbp-ig-icon-tal:before {
 	content: url("../img/icons/tal.png");
 }
+.cbp-ig-icon-band:before {
+	content: url("../img/icons/band.png");
+}
+.cbp-ig-icon-guh:before {
+	content: url("../img/icons/guh.png");
+}
 
 
 
