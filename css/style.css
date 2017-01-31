@@ -166,9 +166,9 @@
 
 	position: absolute;
  	z-index: 10;
- 	height: 35%;
+ 	height: 32%;
  	width: 35%;
-	margin-top: 215px;
+	margin-top: 225px;
 	margin-left: 31%;
 	padding: 10px;
 	
@@ -238,9 +238,9 @@
 
 	position: absolute;
  	z-index: 10;
- 	height: 30%;
+ 	height: 41%;
  	width: 55%;
-	margin-top: 130px;
+	margin-top: 138px;
 	margin-left: 21%;
 	padding: 10px;
 	
@@ -545,6 +545,11 @@ margin:auto;
 }
 #team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(10) > img
 {
+	height: 100px;
+	width: 100px;
+}
+
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(11) > img{
 	height: 100px;
 	width: 100px;
 }
