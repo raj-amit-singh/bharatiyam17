@@ -16,7 +16,7 @@ $('.bxslider').bxSlider({
     slideWidth: 189,
     slideMargin: 0,
     ticker: true,
-    speed: 30000
+    speed: 70000
 });
 
 
