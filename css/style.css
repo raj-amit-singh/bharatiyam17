@@ -554,6 +554,11 @@ margin:auto;
 	width: 100px;
 }
 
+#team > div > div.col-xs-12.col-sm-6.col-md-8 > div.first > div > div:nth-child(12) > img{
+	
+	
+}
+
 
 @media (max-width:500px){
 
