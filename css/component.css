@@ -159,9 +159,25 @@
 	content: url("../img/icons/guh.png");
 }
 
+.cbp-ig-icon-desi:before {
+	content: url("../img/icons/desci.png");
+}
+.cbp-ig-icon-build:before {
+	content: url("../img/icons/build.png");
+}
+.cbp-ig-icon-bridge:before {
+	content: url("../img/icons/bridge.png");
+}
+.cbp-ig-icon-game:before {
+	content: url("../img/icons/game.png");
+}
 
-
-
+.cbp-ig-icon-circuit:before {
+	content: url("../img/icons/circuit.png");
+}
+.cbp-ig-icon-cam:before {
+	content: url("../img/icons/cam.png");
+}
 /* title element */
 .cbp-ig-grid .cbp-ig-title {
 	margin: 20px 0 10px 0;
