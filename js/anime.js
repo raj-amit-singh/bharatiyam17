@@ -62,3 +62,5 @@ if ($('#back-to-top').length) {
         }, 1000);
     });
 }
+
+// team switiching 
