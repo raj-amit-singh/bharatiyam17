@@ -238,21 +238,41 @@
 
 	position: absolute;
  	z-index: 10;
- 	height: 41%;
- 	width: 55%;
+ 	height: 25%;
+ 	width: 50%;
 	margin-top: 138px;
-	margin-left: 21%;
+	margin-left: 23%;
 	padding: 10px;
 	
 
 }
+
+
+@media (max-width:360px){
+
+	#home > div.bharatiyam > span.img > img{
+
+	position: absolute;
+ 	z-index: 10;
+ 	height: 18%;
+ 	width: 50%;
+	margin-top: 138px;
+	margin-left: 23%;
+	padding: 10px;
+	
+
+}
+
+
+
+
 
 .cont .bharatiyam span.welcome {
 
  	position: absolute;
  	z-index: 10;
 	margin-top: 100px;
-	margin-left: 21%;
+	margin-left: 23%;
 	font-size: 30px;
 	text-align: center;
 	color: #fff;
